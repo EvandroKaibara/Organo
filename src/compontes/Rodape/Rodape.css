@@ -1,0 +1,18 @@
+.rodape{
+    display: flex;
+    justify-content: space-around;
+    background-color: #6278F7;
+    align-items: center;
+    padding: 20px;
+    background-image: url("../../../public/imagens/fundo.png");
+    
+    & .redes-sociais{
+        width: 10%;
+        justify-content: space-around;
+    }
+
+    & span{
+        color: #fff;
+        font-size: 24px;
+    }
+}
